@@ -1,7 +1,3 @@
-# FROM alpine:3.7
-# COPY ./app /app
-# ENTRYPOINT /app
-
 FROM golang:1.10.1
 RUN go get -d -v github.com/gree-gorey/depends
 WORKDIR /go/src/github.com/gree-gorey/depends
